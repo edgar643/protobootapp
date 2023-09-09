@@ -4,7 +4,7 @@ package co.edu.eafit.protobootapp;
 public class Calculadora {
 
     public Double cuadrado(Double numero) {
-        return 2*numero * numero;
+        return numero * numero;
     }
     
     public Double cubo(Double numero) {
