@@ -13,7 +13,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 //Pruebas de integración
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class HttpRequestTest {
-
     @LocalServerPort
     private int port;
 
