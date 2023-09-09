@@ -42,7 +42,7 @@
                 <version>3.3.0</version>
                 <configuration>
                     <configLocation>google_checks.xml</configLocation><!-- https://maven.apache.org/plugins/maven-checkstyle-plugin/ -->
-                    <encoding>UTF-8</encoding>
+                    <!--encoding>UTF-8</encoding-->
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                     <linkXRef>false</linkXRef>
