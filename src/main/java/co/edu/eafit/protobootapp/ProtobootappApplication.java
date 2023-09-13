@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 //Se lanza y se ejecuta con http://localhost:8080 o la URL específica al proveedor cloud
 @SpringBootApplication
 @RestController
-public class ProtobootappApplication {
+public class
+ProtobootappApplication {
 
     Calculadora calculadora;
     
@@ -36,8 +37,7 @@ public class ProtobootappApplication {
         this.calculadora = new Calculadora();
         return String.format("El cuadrado de %f es %f", numero, this.calculadora.cuadrado(numero));
     }
-    
-    //Se ejecuta con http://localhost:8080/cubo o http://localhost:8080/cubo?numero=5
+       //Se ejecuta con http://localhost:8080/cubo o http://localhost:8080/cubo?numero=5
     @GetMapping("/cubo")
     public String cubo(@RequestParam(value = "numero", defaultValue = "0") Double numero) {
         this.calculadora = new Calculadora();
